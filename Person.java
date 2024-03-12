@@ -2,13 +2,11 @@ public class Person {
     private String name;
     private int age;
 
-    // Constructor
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    // Getters
     public String getName() {
         return name;
     }
@@ -17,7 +15,6 @@ public class Person {
         return age;
     }
 
-    // Main method
     public static void main(String[] args) {
         // Create Person objects
         Person alice = new Person("Alice", 25);
